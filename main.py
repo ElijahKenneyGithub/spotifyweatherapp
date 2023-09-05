@@ -4,10 +4,10 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import random
 
 WEATHER_API_URL = "https://api.weatherapi.com/v1/current.json"
-API_KEY = "0e47d4d5bcdd4663a77234431230409"
+API_KEY = "YOUR-WEATHER-API-KEYf"
 
-SPOTIPY_CLIENT_ID = '3be79b156f0b4bd0b86dc704806a104a'
-SPOTIPY_CLIENT_SECRET = '4ea7ea71158241798590d3667a532b41'
+SPOTIPY_CLIENT_ID = 'YOUR-SPOTIFY-CLIENT-ID'
+SPOTIPY_CLIENT_SECRET = 'YOUR-SPOTIFY-CLIENT-SECRET'
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET))
